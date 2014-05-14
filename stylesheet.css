@@ -1,5 +1,6 @@
 html, body {
 	margin:0;
+	display:none;
 }
 
 div{
@@ -29,7 +30,7 @@ div{
 	background-image: url('img/background.jpg');
 }
 .fan{
-	top:822px;
+	top:900px;
 	left:535px;
 	width:296px;
 	height: 438px;
