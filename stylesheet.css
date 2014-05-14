@@ -24,8 +24,14 @@ div{
 }
 
 .back{
+	width: 1333px;
+	height: 1455px;
 	background-image: url('img/background.jpg');
 }
 .fan{
+	top:822px;
+	left:535px;
+	width:296px;
+	height: 438px;
 	background-image: url('img/fan.png');
 }
