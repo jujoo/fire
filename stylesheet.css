@@ -17,25 +17,20 @@ div{
 	overflow: hidden;
 	position: absolute;
 }
-
-.w01{
-	background-image: url('img/wood01.jpg');	
+.wood{
 	width: 1333px;
 	height: 1455px;
+}
+.w01{
+	background-image: url('img/wood01.jpg');	
 }
 .w02{
 	background-image: url('img/wood02.jpg');	
-	width: 1333px;
-	height: 1455px;
 }
 .w03{
 	background-image: url('img/wood03.jpg');	
-	width: 1333px;
-	height: 1455px;
 }
 .w04{
 	background-image: url('img/wood04.jpg');	
-	width: 1333px;
-	height: 1455px;
 }
 
