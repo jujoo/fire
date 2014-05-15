@@ -35,3 +35,17 @@ div{
 	height: 438px;
 	background-image: url('img/fan.png');
 }
+.fan2{
+	top:1100px;
+	left:535px;
+	width:296px;
+	height: 438px;
+	background-image: url('img/fan2.png');
+}
+.fan3{
+	top:1200px;
+	left:535px;
+	width:296px;
+	height: 438px;
+	background-image: url('img/fan3.png');
+}
