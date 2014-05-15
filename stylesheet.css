@@ -31,21 +31,21 @@ div{
 .fan{
 	top:750px;
 	left:200px;
-	width:296px;
-	height: 438px;
+	width:185px;
+	height: 272px;
 	background-image: url('img/fan.png');
 }
 .fan2{
 	top:750px;
 	left:200px;
-	width:296px;
-	height: 438px;
+	width:185px;
+	height: 272px;
 	background-image: url('img/fan2.png');
 }
 .fan3{
 	top:750px;
 	left:200px;
-	width:296px;
-	height: 438px;
+	width:185px;
+	height: 272px;
 	background-image: url('img/fan3.png');
 }
