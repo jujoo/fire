@@ -58,3 +58,40 @@ $(document).ready(function(){
 		var z = event.accelerationIncludingGravity.z; // z값
 		y = Math.round(y); // 1이하 소숫점 버림.
 		temp_y = y;
+
+
+		$("#xVal").html(Math.round(y));
+		$("#sVal").html(shakepoint);
+
+
+		var maxX = window.innerWidth - $("#ball").width();
+		var maxY = window.innerHeight - $("#ball").height();
+
+
+		var orgX = parseFloat(orgX); // 스트링을 숫자로 변환
+		var newX = orgX + x;
+		newX = Math.max(0, newX);
+		newX = Math.min(maxX, newX);
+
+
+
+
+		var orgY = $("#ball").css("top");
+		orgY = parseFloat(orgY);
+		var newY = orgY - y;
+		newY = Math.max(0, newY);
+		newY = Math.min(maxY, newY);
+
+
+	}
+
+
+
+
+	window.addEventListener("devicemotion", handleMotionEvent, true);
+	setInterval(shake,100); // 계속 이 함수가 돌아가게 만들기 위해 선언함. 0.1초마다 이 함수가 실행됨(1000 = 1초)
+	setInterval(firepoint,500);
+	setInterval(fan,200);
+
+
+});
