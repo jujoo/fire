@@ -7,8 +7,8 @@ div{
 	position: absolute;
 }
 .wood{
-	width: 1333px;
-	height: 1455px;
+	width: 640px;
+	height: 1136px;
 }
 .w01{
 	background-image: url('img/wood01.png');	
@@ -24,8 +24,8 @@ div{
 }
 
 .back{
-	width: 1333px;
-	height: 1455px;
+	width: 640px;
+	height: 1136px;
 	background-image: url('img/background.jpg');
 }
 .fan{
